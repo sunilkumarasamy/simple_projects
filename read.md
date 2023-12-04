@@ -1,0 +1,42 @@
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git init
+Initialized empty Git repository in /Users/sunilkumar/todo_app/.git/
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git add .
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git add -A
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git commit -m"simple projects"
+[main (root-commit) 8f031d7] simple projects
+ 10 files changed, 178 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 alt.py
+ create mode 100644 datafile.py
+ create mode 100644 image_resizer.py
+ create mode 100644 "input_images/pexels-q-h\306\260ng-ph\341\272\241m-19257500.jpg"
+ create mode 100644 "input_images/pexels-v\303\244in\303\266-parjanen-17411075.jpg"
+ create mode 100644 "output_images/pexels-q-h\306\260ng-ph\341\272\241m-19257500.jpg"
+ create mode 100644 "output_images/pexels-v\303\244in\303\266-parjanen-17411075.jpg"
+ create mode 100644 quote.py
+ create mode 100644 todo.py
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ git push --set-upstream https://github.com/sunilkumarasamy/simple_projects.git main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 7.26 MiB | 1.93 MiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sunilkumarasamy/simple_projects.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'https://github.com/sunilkumarasamy/simple_projects.git/main'.
+(/opt/anaconda3) sunilkumar@Lavorros-MacBook-Pro.local:~/todo_app$ 
+
+
+    
